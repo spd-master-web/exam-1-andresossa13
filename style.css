@@ -11,6 +11,9 @@ html {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* NAVIGATION */
+
+
 header {
   margin: 0 auto;
   margin-top: -17px;
@@ -47,3 +50,44 @@ nav > a {
   text-decoration: none;
 }
 
+/* MAIN BODY */
+
+
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(252, 80, 112);
+  width: 100vw;
+  height: 80px;
+ 
+  color: #ffffff;
+  
+}
+
+.footer-right {
+  width: 12%;
+  float: right;
+  display: block;
+  height: 0%;
+  padding-top: 15px;
+}
+
+.footer-left {
+  width: 47%;
+  float: left;
+  display: block;
+  height: 50px;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+a.footer-links {
+  border-left:none;
+  color:white;
+}
+
+a.footer-links1 {
+  border-left:none;
+  color:white;
+}
