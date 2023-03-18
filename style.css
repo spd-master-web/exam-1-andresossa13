@@ -12,6 +12,10 @@ html {
   color: white;
 }
 
+p {
+  line-height: ;
+}
+
 /* NAVIGATION */
 
 
@@ -53,6 +57,18 @@ nav > a {
 
 /* MAIN BODY */
 
+/* GENERAL */
+
+h2 {
+  color: white;
+}
+
+strong {
+  color:rgb(252, 80, 112);
+}
+
+/* SECTION mythology */
+
 .tiger-black {
   position: relative;
   text-align: left;
@@ -61,15 +77,69 @@ nav > a {
 
 .top-left {
   position: absolute;
-  bottom: 400px;
-  left: 0px;
+  bottom: 300px;
+  left: 230px;
   text-transform: uppercase; 
 }
 
 .bottom-left {
   position: absolute;
-  bottom: 470px;
-  left: 0px;
+  bottom: 365px;
+  left: 230px;
+}
+
+.wrapper {
+  padding-left: 230px;
+  padding-right: 230px;
+}
+
+/* SECTION lucky */
+
+
+
+.container-1 {
+  max-width: 69vw;
+  
+  display: flex;
+  flex-direction:row;
+  align-items:normal;
+  padding-top: 0px;
+  
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 5%);
+  /* border: 2px dashed white; */
+  
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.luckyly {
+  padding-top: 60px;
+  padding-left: 100px;
+  
+
+}
+
+ul {
+  color:rgb(252, 80, 112); 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  
 }
 
 
