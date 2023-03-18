@@ -4,11 +4,12 @@
 
 body {
   margin: 0;
-  background-color: #ddd;
+  background-color: black;
 }
 
 html {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 
 /* NAVIGATION */
@@ -51,6 +52,25 @@ nav > a {
 }
 
 /* MAIN BODY */
+
+.tiger-black {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  bottom: 400px;
+  left: 0px;
+  text-transform: uppercase; 
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 470px;
+  left: 0px;
+}
 
 
 
