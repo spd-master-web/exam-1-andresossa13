@@ -4,4 +4,46 @@
 
 body {
   margin: 0;
+  background-color: #ddd;
 }
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  margin-top: -17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgb(252, 80, 112);
+  position: sticky;
+  position: fixed;
+  width: 100vw;
+  min-height: fit-content;
+  z-index: 1;
+}
+
+h1 {
+  color: white;
+   position: relative;
+   padding-left: 35px;
+}
+
+.navmain {
+  padding-right: 30px;
+}
+
+a {
+  border-left: 1px solid white;
+}
+
+
+
+nav > a {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
