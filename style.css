@@ -12,9 +12,7 @@ html {
   color: white;
 }
 
-p {
-  line-height: ;
-}
+
 
 /* NAVIGATION */
 
@@ -127,6 +125,8 @@ figure {
   padding-top: 60px;
   padding-left: 100px;
   
+  
+  
 
 }
 
@@ -139,6 +139,19 @@ ul {
   margin: 0 auto;
   justify-content: space-between;
   align-items: flex-start;
+  border: 1px solid rgb(252, 80, 112);
+
+  
+}
+
+/* SECTION year */
+
+#year {
+
+  padding-top: 70px;
+  padding-left: 230px;
+  padding-right: 230px;
+  padding-bottom: 70px;
   
 }
 
@@ -181,3 +194,9 @@ a.footer-links1 {
   border-left:none;
   color:white;
 }
+
+@media only screen and (max-widht:500px) {
+  article {
+    width: 100%;
+}
+  }
