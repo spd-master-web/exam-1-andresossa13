@@ -19,6 +19,7 @@ html {
 
 header {
   margin: 0 auto;
+  top: 0;
   margin-top: -17px;
   display: flex;
   justify-content: space-between;
@@ -195,8 +196,24 @@ a.footer-links1 {
   color:white;
 }
 
-@media only screen and (max-widht:500px) {
-  article {
+@media only screen and (max-width:600px) {
+  body {
     width: 100%;
+    background-color: blue;
+}
+
+header {
+  margin: 0 auto;
+  margin-top: -17px;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+ 
+  background-color: rgb(252, 80, 112);
+  position: sticky;
+  position: fixed;
+  width: 100vw;
+  min-height: fit-content;
+  z-index: 1;
 }
   }
